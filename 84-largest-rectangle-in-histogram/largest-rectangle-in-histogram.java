@@ -1,6 +1,5 @@
 class Solution {
-    public int largestRectangleArea(int[] heights) {
-        int []arr= heights;
+    public int largestRectangleArea(int[] arr) {
         int []nsl =function1(arr);
         int [] nsr= function2(arr);
         int max=0;
